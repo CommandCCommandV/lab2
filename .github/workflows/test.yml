@@ -45,6 +45,9 @@ jobs:
       - name: test check
         run: npm test
 
+      - name: install modules
+        run: npm install
+
       - name: finish lint
         run: echo "test finished"
 
