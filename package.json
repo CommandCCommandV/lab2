@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-"scripts": {
-  "start": "node index.js",
-  "lint": "echo '✨ Kitchen is clean!'",
-  "test": "jest",
-  "build": "echo '🔥 Cooking Biryani...'",
-  "deploy": "echo '🚀 Serving Customer...'"
-},
+  "scripts": {
+    "start": "node index.js",
+    "lint": "echo '✨ Kitchen is clean!'",
+    "test": "jest",
+    "build": "echo '🔥 Cooking Biryani...'",
+    "deploy": "echo '🚀 Serving Customer...'"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anuragkaushik-glitch/delhi-biryani-lab.git"

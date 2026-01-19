@@ -64,6 +64,9 @@ jobs:
       - name: print deploy
         run: echo "test started"
 
+      - name: install modules
+        run: npm install
+
       - name: test deploy
         run: npm run deploy
 
