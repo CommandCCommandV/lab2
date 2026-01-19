@@ -42,11 +42,11 @@ jobs:
       - name: print test
         run: echo "test started"
 
-      - name: test check
-        run: npm test
-
       - name: install modules
         run: npm install
+
+      - name: test check
+        run: npm test
 
       - name: finish lint
         run: echo "test finished"
